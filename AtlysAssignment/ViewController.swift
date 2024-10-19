@@ -9,21 +9,29 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // Array of images
+    // Array containing the images
+    //Compact Map was added to make sure there are no optional in this array, so that i can be passed into initialisers
     private var imagesArray = [UIImage(named: "photo1"), UIImage(named: "photo2"), UIImage(named: "photo3")].compactMap { $0 }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupUI()
         
-        // Set up the carousel view
+    }
+}
+
+//MARK: I tend to make extensions for similar functions for code modularity
+extension ViewController {
+    
+    //Using function to setup UI so viewDidLoad is consise
+    private func setupUI() {
+        // Setting up the carousel view using initialiser
         let carouselView = CarouselView(images: self.imagesArray)
         self.view.backgroundColor = .white
         self.view.addSubview(carouselView)
         
-        // Enable Auto Layout for the carousel view
-        carouselView.translatesAutoresizingMaskIntoConstraints = false
-        
         // Set up the constraints
+        carouselView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             carouselView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
             carouselView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
@@ -32,4 +40,3 @@ class ViewController: UIViewController {
         ])
     }
 }
-
