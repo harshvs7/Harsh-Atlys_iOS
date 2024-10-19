@@ -16,6 +16,7 @@
 		56A711302CC00720003EAFEE /* AtlysAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A7112F2CC00720003EAFEE /* AtlysAssignmentTests.swift */; };
 		56A7113A2CC00720003EAFEE /* AtlysAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A711392CC00720003EAFEE /* AtlysAssignmentUITests.swift */; };
 		56A7113C2CC00720003EAFEE /* AtlysAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A7113B2CC00720003EAFEE /* AtlysAssignmentUITestsLaunchTests.swift */; };
+		56A711492CC0074C003EAFEE /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A711482CC0074C003EAFEE /* CarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		56A711352CC00720003EAFEE /* AtlysAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtlysAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A711392CC00720003EAFEE /* AtlysAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlysAssignmentUITests.swift; sourceTree = "<group>"; };
 		56A7113B2CC00720003EAFEE /* AtlysAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlysAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56A711482CC0074C003EAFEE /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				56A711212CC0071F003EAFEE /* Assets.xcassets */,
 				56A711232CC0071F003EAFEE /* LaunchScreen.storyboard */,
 				56A711262CC0071F003EAFEE /* Info.plist */,
+				56A711482CC0074C003EAFEE /* CarouselView.swift */,
 			);
 			path = AtlysAssignment;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				56A7111D2CC0071E003EAFEE /* ViewController.swift in Sources */,
 				56A711192CC0071E003EAFEE /* AppDelegate.swift in Sources */,
+				56A711492CC0074C003EAFEE /* CarouselView.swift in Sources */,
 				56A7111B2CC0071E003EAFEE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +446,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QC8MN3WX27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AtlysAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -469,6 +474,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QC8MN3WX27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AtlysAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
